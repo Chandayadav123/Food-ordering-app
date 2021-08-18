@@ -26,12 +26,13 @@ class user:
         name=input()
         self.name=name
         list_of_names.append(name)
+    
     def DOB(self):
-
         print("enter your date of birth in format dd-mm-yyyy")
         DOB=input().split("-")
         self.dob=DOB
         list_of_DOB.append(DOB)
+        
     def contact_number(self):
         print("enter contact number")
         number=input()
