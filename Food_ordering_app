@@ -8,7 +8,6 @@ list_of_food=[ "tandoori chicken (4 pieces) [INR 240]","vegan burger (1piece)[IN
 food_info={"101":{"Name":"tandoori chicken","Quantity": " 4 pieces","Price":240,"Discount":0,"stock left":0},
             "102":{"Name":"vegan burger","Quantity":"1 piece","Price":320,"Discount":0,"stock left":0},
              "103":{"Name":"traffle cake","Quantity":"500 gram","Price":900,"Discount":0,"stock left":0}}
-
 pos=0
 class user:
     def __init__(self):
